@@ -9,7 +9,7 @@ NB: EDAstro does not allow cross domain CORS requests so the csv file cannot be 
 
 If you supply coordinates in the url, then it will also display a green marker to show how a proposed site would fit into the network at that location. 
 
-The red circles at 2,500 light years radius. If an circles overlap then the carriers at that locatin would be less then 5000light yeats apart.
+The red circles are 2,500 light years radius. If an circles overlap then the carriers at that location would be less than 5,000 light years apart.
 
 # Examples:
 
