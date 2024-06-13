@@ -53,7 +53,7 @@ async function fetchCoordinatesAndAddCircles(svgContainer) {
                     const fields = line.split(',');
 
                     // only interested in DSSA carriers
-                    if (fields.length >= 3 && fields[0] == "DSSAcarrier") {
+                    if (fields.length >= 3 && (fields[0] == "DSSAcarrier" || fields[0] == "DSSAundeploy")) {
                         const x = parseFloat(fields[3]);
                         const y = parseFloat(fields[5]);
 
